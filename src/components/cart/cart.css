@@ -1,0 +1,104 @@
+.head_cart {
+    font-size: 40px;
+    text-align: center;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.block_cart {
+    margin: 15px;
+    display: flex;
+    margin-bottom: 10px;
+    max-width: 30%;
+    min-width: 250px;
+    height: 120px;
+    padding: 1cqw;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .food_icon_cart {
+    height: auto;
+    width: 30%;
+    max-height: 100px;
+    max-width: 100px;
+    display: block;
+    margin-left: 2px;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+
+  .container_blocks_cart {
+    padding-bottom: 10px;
+    max-width: 90%;
+    display: grid;
+    justify-content: center;
+  }
+
+  .button_cart {
+    margin-top: auto;
+    background-color: rgba(255, 145, 0, 0.664);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 15px;
+    top: 780px;
+    box-sizing: border-box;
+    padding-right: 140px;
+    padding-left: 140px;
+    transition: all 0.5s;
+    width: 100%;
+  }
+
+  .button_cart:active{
+    background-color: rgb(179, 101, 0);
+  }
+
+  .button_cart:hover {
+    background-color: rgb(255, 145, 0);
+  }
+
+  .cart-item-info {
+    flex: 1;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .quantity-controls button {
+    background-color: #eee;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .quantity-controls button:hover {
+    background-color: #ddd;
+  }
+  
+  .remove-button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .remove-button:hover {
+    background-color: #ff4a4a;
+  }
+
