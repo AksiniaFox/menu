@@ -8,7 +8,7 @@ const AddressInput = () => {
 
   const fetchSuggestions = async (query) => {
     const url = "https://suggestions.dadata.ru/suggestions/api/4_1/rs/suggest/address";
-    const token = '52159b16cd34085d22bca7a558e7e222fce86422'
+    const token = ''
 
     const options = {
       method: "POST",
