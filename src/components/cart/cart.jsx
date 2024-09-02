@@ -19,7 +19,7 @@ export default function Cart() {
                 {cart.length === 0 ? (
                     <p className='block_cart'>Ваша корзина пуста</p>
                 ) : (
-                    <div>
+                    
                         <div className='container_blocks_cart'>
                         {cart.map((dish, index) => (
                             <div key={index} className="block_cart">
@@ -40,7 +40,7 @@ export default function Cart() {
                                 </div>
                             </div>
                         ))}
-                        </div>
+                        
                         <button className='button_cart' onClick={handleOrderClick} >Заказать!</button>
                     </div>
                 )}

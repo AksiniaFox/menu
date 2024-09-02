@@ -51,7 +51,7 @@ export default function Confirm () {
                     {cart.map(item => (
                         <div key={item.id} className="block_cart">
                             <img src={item.imgSrc} alt={item.name} className='food_icon_cart' />
-                            <p className="cart-item-info">{item.name}</p>
+                            <p>{item.name}</p>
                             <div className="quantity-controls button">
                                 <button type="button" onClick={() => handleQuantityChange(item.id, 'decrease')}>-</button>
                                 <span>{item.quantity}</span>
